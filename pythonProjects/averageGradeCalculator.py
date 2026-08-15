@@ -5,10 +5,10 @@ import math
 
 """Calculate the average grade of someone base on all of their grades."""
 
-num_grades = int(input("Enter how many grades you have: "))
+numgrades = int(input("Enter how many grades you have: "))
 grades = []
 
-for i in range(num_grades):
+for i in range(numgrades):
     grade = float(input(f"Enter grade {i + 1}: "))
     grades.append(grade)
 
