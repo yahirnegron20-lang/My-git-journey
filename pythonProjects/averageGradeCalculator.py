@@ -5,11 +5,22 @@ import math
 
 """Calculate the average grade of someone base on all of their grades."""
 
-numgrades = int(input("Enter how many grades you have: "))
+while True:
+    try:
+        numgrades = int(input("Enter how many grades you have: "))
+        break
+    except ValueError:
+        print("Please enter a valid number.", "\n")
+
 grades = []
 
 for i in range(numgrades):
-    grade = float(input(f"Enter grade {i + 1}: "))
+    while True:
+        try:
+            grade = float(input(f"Enter grade {i + 1}: "))
+            break
+        except ValueError:
+            print("Please enter a valid number.", "\n")
     grades.append(grade)
 
 if grades:
