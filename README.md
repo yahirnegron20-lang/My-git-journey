@@ -4,7 +4,7 @@ This repository contains a hands-on journey learning Git, GitHub and collaborati
 ## What I am learning:
   
     -[x] Git repositories
-    -[ ] commits
+    -[x] commits
     -[ ] GitHub repositories
     -[ ] Branching
     -[ ] Merging
