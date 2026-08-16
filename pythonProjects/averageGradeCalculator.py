@@ -18,9 +18,13 @@ for i in range(numgrades):
     while True:
         try:
             grade = float(input(f"Enter grade {i + 1}: "))
-            break
+            if 0 <= grade <= 100:
+                break
+            else:
+                print("Please enter a grade between 0 and 100.", "\n")
         except ValueError:
-            print("Please enter a valid number.", "\n")
+            print("Please enter a valid number.", "\n")   
+        
     grades.append(grade)
 
 if grades:
