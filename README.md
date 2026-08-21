@@ -7,7 +7,7 @@ This repository contains a hands-on journey learning Git, GitHub and collaborati
     -[x] commits
     -[x] GitHub repositories
     -[x] Branching
-    -[ ] Merging
+    -[x] Merging
     -[ ] Merge conflicts
     -[ ] Pull requests
     -[ ] GitHub Issues
